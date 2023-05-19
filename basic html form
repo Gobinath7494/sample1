@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>                          
+    <form action="">
+        <fieldset>
+            <legend>Application Form</legend>
+            <p>
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="fathername">FATHER NAME:</label>
+                <input type="text" name="fathername" id="fathername">
+            </p>
+            <p>
+                <label for="mothername">MOTHER NAME:</label>
+                <input type="text" name="mothername" id="mothername">
+            </p>
+            <p>
+                <label for="phone">MOBILE NO:</label>
+                <input type="tel" name="phone" id="phone">
+            </p>
+            <p>
+                <label for="emailid">EMAIL ID:</label>
+                <input type="email" name="emailid" id="emailid">
+            </p>
+            <button type="submit" >SUBMIT</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
